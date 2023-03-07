@@ -23,10 +23,10 @@
 1. Make sure you have basic tools installed:
 
    - [Rust](https://www.rust-lang.org)
-     - Check: `$ rustc -V` => `rustc 1.43.1 (8d69840ab 2020-05-04)`
+     - Check: `$ rustc -V` => `rustc 1.67.1 (d5a82bbd2 2023-02-07)`
      - Install: https://www.rust-lang.org/tools/install
    - [cargo-make](https://sagiegurari.github.io/cargo-make/)
-     - Check: `$ cargo make -V` => `cargo-make 0.30.7`
+     - Check: `$ cargo make -V` => `cargo-make 0.36.5`
      - Install: `$ cargo install cargo-make`
 
 1. Platform-specific tools like `ssl` and `pkg-config`:
@@ -68,9 +68,3 @@
 ## Other Seed quickstarts and projects
 
 - [seed-rs/awesome-seed-rs](https://github.com/seed-rs/awesome-seed-rs)
-
----
-
-**!!! New Rust-only quickstart in development! => [Seeder](https://github.com/MartinKavik/seeder) !!!**
-
----

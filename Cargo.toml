@@ -7,16 +7,19 @@ description = "App Description"
 categories = ["category"]
 license = "MIT"
 readme = "./README.md"
-edition = "2018"
+edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dev-dependencies]
-wasm-bindgen-test = "0.3.18"
+wasm-bindgen-test = "0.3.34"
 
 [dependencies]
-seed = "0.8.0"
+seed = "0.10.0"
+
+[patch.crates-io]
+seed = { git = "https://github.com/seed-rs/seed", rev = "0.10.0" }
 
 [profile.release]
 lto = true
