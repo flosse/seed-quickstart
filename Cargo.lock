@@ -325,7 +325,8 @@ checksum = "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294"
 [[package]]
 name = "seed"
 version = "0.10.0"
-source = "git+https://github.com/seed-rs/seed?rev=0.10.0#4b0f1f8bff4832c0cd345d0d41f8a11599c3df2d"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9c0e296ea0569d20467e9a1df3cb6ed66ce3b791a7eaf1e1110ae231f75e2b46"
 dependencies = [
  "enclose",
  "futures",
@@ -353,9 +354,9 @@ dependencies = [
 
 [[package]]
 name = "serde"
-version = "1.0.152"
+version = "1.0.153"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb"
+checksum = "3a382c72b4ba118526e187430bb4963cd6d55051ebf13d9b25574d379cc98d20"
 
 [[package]]
 name = "serde_json"

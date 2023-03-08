@@ -18,9 +18,6 @@ wasm-bindgen-test = "0.3.34"
 [dependencies]
 seed = "0.10.0"
 
-[patch.crates-io]
-seed = { git = "https://github.com/seed-rs/seed", rev = "0.10.0" }
-
 [profile.release]
 lto = true
 opt-level = 'z'
